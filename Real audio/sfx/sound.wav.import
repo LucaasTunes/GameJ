@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bemirgcfc6t4b"
+path="res://.godot/imported/sound.wav-109dbd98b65f6cb8797fb8f25a12451d.sample"
+
+[deps]
+
+source_file="res://Real audio/sfx/sound.wav"
+dest_files=["res://.godot/imported/sound.wav-109dbd98b65f6cb8797fb8f25a12451d.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

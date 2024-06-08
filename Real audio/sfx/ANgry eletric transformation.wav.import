@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://bkk0d0m2idt7w"
+path="res://.godot/imported/ANgry eletric transformation.wav-8f349539c76137b7b5ad1c1e2c91eddd.sample"
+
+[deps]
+
+source_file="res://Real audio/sfx/ANgry eletric transformation.wav"
+dest_files=["res://.godot/imported/ANgry eletric transformation.wav-8f349539c76137b7b5ad1c1e2c91eddd.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
