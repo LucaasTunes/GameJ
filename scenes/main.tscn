@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://bjl5818jxnb4o"]
+[gd_scene load_steps=18 format=3 uid="uid://bjl5818jxnb4o"]
 
 [ext_resource type="Texture2D" uid="uid://ce4548g0wgsgm" path="res://assets/losse/sheet_tile.png" id="1_sh0yu"]
 [ext_resource type="PackedScene" uid="uid://dn6mrl5ji1cpu" path="res://scenes/player.tscn" id="2_2ciu8"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bdgf7to23ik3f" path="res://scenes/enemy.tscn" id="4_dv6nf"]
 [ext_resource type="PackedScene" uid="uid://bwiiinpodq7d7" path="res://scenes/killzone.tscn" id="5_cji1o"]
 [ext_resource type="PackedScene" uid="uid://ljsurexgmi2y" path="res://scenes/card.tscn" id="6_6mpsv"]
+[ext_resource type="PackedScene" uid="uid://bxeg30g2biypr" path="res://tile/1 world.tscn" id="7_mig2d"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d8mtu"]
 texture = ExtResource("1_sh0yu")
@@ -295,11 +296,6 @@ scale = Vector2(0.620001, 0.5)
 SPEED = 200.0
 
 [node name="Camera2D" type="Camera2D" parent="Player"]
-position = Vector2(118.571, 17.1429)
-scale = Vector2(1.42857, 1.42857)
-enabled = false
-zoom = Vector2(4, 4)
-limit_bottom = 200
 
 [node name="Platforms" type="Node" parent="."]
 
@@ -325,7 +321,7 @@ autoplay = "move"
 position = Vector2(-192, -48)
 
 [node name="Enemy" parent="." instance=ExtResource("4_dv6nf")]
-position = Vector2(270, -10)
+position = Vector2(275, -32)
 
 [node name="Cards" type="Node" parent="."]
 
@@ -341,3 +337,5 @@ element = "ice"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Cards/WorldEdge"]
 position = Vector2(-2, 151)
 shape = SubResource("WorldBoundaryShape2D_3gkjf")
+
+[node name="TileMap 1" parent="." instance=ExtResource("7_mig2d")]
